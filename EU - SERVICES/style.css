@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+.header{
+    background-color: #376fa0;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    font-size: 1.5rem;
+    align-items: center;
+    position: fixed;
+    height: 110px;
+    
+}
+
+.Title{
+    text-decoration: none;
+    text-decoration-color: white;
+    width: 300px;
+    align-items: center;
+    margin-left: 65px;
+    margin-top: 25px;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.Title p{
+    color: white;
+    margin-left: 8px;
+    font-weight: 900;
+}
+
+.nav{
+    text-align: center;
+    width: 600px;
+    margin-top: 25px;
+    display: block;
+    
+}
+
+.nav a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 1.1rem;
+    margin-left: 8px;
+    transition: all 0.1s ease-in-out;
+}
+
+.social-icons{
+    margin-left: 70px;
+    margin-top: 38px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 300px;
+
+}
+
+.social-icons i{
+    padding: 6px;
+    font-size: 1.2rem;
+    opacity: 0.6;
+    color: aliceblue;
+}
+
+.social-icons i:hover{
+    opacity: 1;
+    transform: scale(1.05);
+
+}
+
+.Title:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+
+.nav a:hover{
+    background-color: #1d578a;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.center {
+    background-color: #376fa0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 0px;
+    height: 700px;
+}
+
+.center .right {
+    text-align: center;
+    width: 50%;
+}
+
+.center .left {
+    margin-left: 70px;
+    width: 50%;
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+
+.center .left h1{
+    color: white;
+    font-size: 3rem;
+    line-height: 60px;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.center .right img {
+    height: 450px; 
+    width: 450px;
+    margin-top: 20px;
+    transition: all 200ms ease-in-out;
+}
+
+.center .right img:hover {
+    height: 500px; 
+    width: 500px;
+}
+
+.center .left p{
+    color: rgb(190, 181, 181);
+    font-size: 1.7rem;
+    margin-top: 0px;
+    font-weight: 500;
+}
+
+.center .left .gs {
+    height: 40px;
+    width: 200px;
+    margin-top: 5px;
+    border-radius: 20px;
+    background-color: #3990dc;
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 550;
+    text-align: center;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+.center .left .gs:hover {
+    background-color: #1d578a;
+    cursor: pointer;
+    font-size: 1.15rem;
+
+}
+
+.about{
+    width: 100%;
+    height: 600px;
+}
+
+.about h1{
+    margin-right: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    color: #376fa0;
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+.about .text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .about-left{
+    width: 40%;
+    margin-left: 70px;
+    color: #3990dc;
+    text-align: justify;    
+}
+
+.about-left p{
+    margin-top: 50px;
+}
+
+.about-right p{
+    margin-left: 70px;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.about-left ul{
+    line-height: 40px
+}
+
+.about-right ul{
+    margin-left: 70px;
+    line-height: 40px
+}
+
+.about .about-right{
+    width: 50%;
+    margin-right: 80px;
+    color: #3990dc;
+}
+
+.about .tagline{
+    height: 70px;
+    background-color: #edf3f7;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.tagline img{
+    height: 22px;
+    margin-right: 55px;
+    margin-left: 55px;
+    transition: all 0.1s ease-in-out ;
+}
+
+.tagline img:hover{
+    transform: scale(1.05);
+}
+
+.read-more{
+    width: 170px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #3990dc;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.read-more i{
+    color: #3990dc;
+    background-color: white;
+    transition: background-color 0.3s ease;
+}
+
+.read-more button{
+    font-weight: 600;
+    font-size: 1.05rem;
+    background-color: white;
+    transition: background-color 0.3s ease;
+    color: #3990dc;
+    border: none;
+}
+
+.read-more:hover,
+.read-more:hover i,
+.read-more:hover button {
+    color: white;
+    background-color: #3990dc;
+
+}
+
+.card-container{
+    width: 100%;
+    height: 540px;
+    background-color: rgb(243, 247, 247);
+}
+
+.card-container h1{
+    text-align: center;
+    font-weight: 800;
+    color: #376fa0;
+    font-size: 2rem;
+    padding-top: 20px;
+}
+
+.cards{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    overflow: hidden;
+
+}
+
+.card1{
+    height: 350px;
+    width: 260px;
+    background-color: rgb(220, 228, 228);
+    border-radius: 8px;
+    padding: 15px;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.card2{
+    height: 350px;
+    width: 260px;
+    background-color: rgb(220, 228, 228);
+    border-radius: 8px;
+    padding: 15px;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.card3{
+    height: 350px;
+    width: 260px;
+    background-color: rgb(220, 228, 228);
+    border-radius: 8px;
+    padding: 15px;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.card4{
+    height: 350px;
+    width: 260px;
+    background-color: rgb(220, 228, 228);
+    border-radius: 8px;
+    padding: 15px;
+    transition: all 0.2s ease-in-out;
+}
+
+.cards img{
+    height: 200px;
+    width: 260px;
+    border-radius: 8px;
+    
+}
+
+.cards .card-text{
+    text-align: center;
+    color: #376fa0;
+    width: 100%;
+}
+
+.cards .card1:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgb(192, 201, 201);
+}
+
+.cards .card2:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgb(192, 201, 201);
+}
+
+.cards .card3:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgb(192, 201, 201);
+}
+
+.cards .card4:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgb(192, 201, 201);
+}
+
+.reviews{
+    width: 100%;
+    height: auto;
+   line-height: 20px;
+   padding: 10px 0;
+   background-color: rgb(243, 247, 247);
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.reviews h1{
+    margin-right: 40px;
+    text-align: center;
+    font-weight: 800;
+    color: #376fa0;
+    font-size: 2rem;
+    padding-top: 10px;
+}
+
+.reviews p{
+    color: #376fa0;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.reviews .review-left,
+.reviews .review-right{
+    width: 50%;
+}
+
+.reviews .review-right{
+    margin-right: 100px;
+}
+
+.reviews .box1,
+.reviews .box2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    width: 550px;
+    height: 180px;
+    margin-left: 75px;
+    overflow: hidden;
+    color: #376fa0;
+    background-color: white;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.review-left img,
+.review-right img{
+    width: 150px;
+    height: 150px;
+    margin-top: 15px;
+    border-radius: 100px;
+    margin-left: 15px;
+    transition: all 0.2s ease-in-out;
+    max-width: 30%;
+
+}
+
+.reviews .review-text{
+    margin-left: 20px;
+    line-height: 10px;
+}
+
+.review-text .text1{
+    font-weight: 600;
+}
+
+.review-text h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-weight: 800;
+}
+
+.review-left img:hover,
+.review-right img:hover{
+    transform: scale(1.05);
+    
+}
+
+.boxes .text2{
+    text-align: justify;
+    line-height: 20px;
+    margin-left: 18px;
+    width: 300px;
+}
+
+.box-icons {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 65px;
+}
+
+.box-icons i {
+    background-color: rgb(229, 236, 236);
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 50%;
+    color: rgba(17, 22, 24, 0.8);
+    width: 25px;
+    height: 25px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease, color 0.3s ease;
+}
+
+.box-icons i:hover {
+    background-color: #3990dc;
+    color: white;
+}
+
+.review-left .box1:hover,
+.review-left .box2:hover,
+.review-right .box1:hover,
+.review-right .box2:hover{
+    box-shadow: 2px -1px 44px -8px rgba(77,141,212,0.73);
+    -webkit-box-shadow: 2px -1px 44px -8px rgba(77,141,212,0.73);
+    -moz-box-shadow: 2px -1px 44px -8px rgba(77,141,212,0.73);
+}
+
+footer{
+    padding-top: 30px;
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.address h3{
+    color: #376fa0;
+}
+
+.address{
+    margin-top: 10px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    line-height: 5px;
+    color: rgb(85, 90, 91);
+    font-size: 0.9rem;
+    width: 300px;
+}
+
+.links, .services{
+    margin-left: 80px;
+    color: rgb(85, 90, 91);
+    font-size: 0.9rem;
+    line-height: 30px;
+    width: 220px;
+}
+
+.follow{
+    margin-left: 80px;
+    color: rgb(85, 90, 91);
+    font-size: 0.9rem;
+    line-height: 30px;
+    width: 500px;
+}
+
+footer li:hover{
+    text-decoration: underline;
+}
+
+footer h4{
+    color: #376fa0;
+    margin-left: 20px;
+}
+
+.follow p{
+    margin-left: 20px;
+}
+
+.follow .icons{
+    display: flex;
+}
+
+.follow .icons i{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.follow .icons i:hover{
+    color: #3990dc;
+    border: 1px solid #3990dc;
+}
